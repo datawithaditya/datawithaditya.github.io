@@ -32,10 +32,11 @@ header h1 {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -65,11 +66,13 @@ h2 {
     margin-bottom: 40px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
 }
 
 .portfolio-item:hover {
     transform: translateY(-5px);
+    background-color: #f0f0f0;
 }
 
 .portfolio-item img {
@@ -92,44 +95,14 @@ h2 {
 
 .linkedin-button {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 10px 20px;
     background-color: #0077b5;
     color: #fff;
     text-decoration: none;
     border-radius: 30px;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: background-color 0.3s ease;
-}
-
-.linkedin-button:hover {
-    background-color: #005f87;
-}
-
-
-/* Add this to your existing styles.css */
-
-header h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 40px; /* Increase spacing between nav items */
-}
-
-/* Add this to your existing styles.css */
-
-.linkedin-button {
-    display: inline-block;
-    padding: 15px 40px; /* Adjust button padding */
-    margin-top: 40px; /* Add margin between button and paragraph */
-    background-color: #0077b5;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 30px;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
 .linkedin-button:hover {
@@ -139,45 +112,45 @@ nav ul li {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 30px 0; /* Adjust padding */
+    padding: 30px 0;
     text-align: center;
     width: 100%;
-    clear: both; /* Add to ensure proper spacing */
+    clear: both;
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 
-/* Add this to your existing styles.css */
-
-.portfolio-item {
-    flex: 0 1 calc(33.33% - 20px);
-    margin-bottom: 40px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for background color */
-    border-radius: 5px;
+    .portfolio-item {
+        flex: 0 1 calc(50% - 20px);
+    }
 }
 
-.portfolio-item:hover {
-    transform: translateY(-5px);
-    background-color: #f0f0f0; /* Change background color on hover */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-item {
+        flex: 0 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .linkedin-button {
+        width: 100%;
+        text-align: center;
+    }
 }
-
-.portfolio-item img {
-    max-width: 100%;
-    height: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.portfolio-item h3 {
-    padding: 20px;
-    font-size: 1.5em;
-    margin: 0;
-}
-
-.portfolio-item p {
-    padding: 0 20px 20px;
-    margin: 0;
-}
-
-
