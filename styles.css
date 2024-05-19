@@ -154,3 +154,20 @@ footer {
         text-align: center;
     }
 }
+
+/* Add this CSS to your styles.css file */
+
+.portfolio-item a {
+	color: #FFFFFF;
+    text-decoration: none; /* Remove underline */
+}
+
+.portfolio-item h3 {
+    color: black; /* Change the color to black or any other color you prefer */
+    font-weight: normal; /* Set font weight to normal */
+}
+
+.portfolio-item p {
+    color: black; /* Change the color to black or any other color you prefer */
+    font-weight: normal; /* Set font weight to normal */
+}
