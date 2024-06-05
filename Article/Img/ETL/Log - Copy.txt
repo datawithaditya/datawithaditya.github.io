@@ -1,0 +1,71 @@
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:17.083100
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:20.689484
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:27.805733
+
+    Loading... Target.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Target'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:31.610147
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:35.637994
+
+    Loading... Tgt UnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Tgt UnPivot'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************

@@ -1,0 +1,2864 @@
+
+
+Task Performed At: 2024-04-01 13:09:35.493348
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 182
+    Transfering Time For Marg is: 132
+    Time of Execution: 314
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:54:41.027381
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 11
+    Transfering Time For Marg is: 1
+    Time of Execution: 13
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:55:00.516996
+
+    Loading... Product.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Product'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:55:06.993505
+
+    Loading... Tgt UnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Tgt UnPivot'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:55:13.500028
+
+    Loading... Target.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Target'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:55:21.965504
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:55:29.441509
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-01 13:55:41.635018
+
+    Loading... DoctorAchievment.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DoctorAchievment'' Created
+
+    Loading Time Form SaleSreip is: 30
+    Transfering Time For Marg is: 39
+    Time of Execution: 69
+
+**************************************************************
+
+Task Performed At: 2024-04-04 13:31:15.610831
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 1
+    Time of Execution: 6
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-04 16:20:10.182144
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 13
+    Transfering Time For Marg is 20:
+    Time of Execution: 34
+
+**************************************************************
+
+Task Performed At: 2024-04-04 16:23:20.468421
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is 0:
+    Time of Execution: 1
+
+Task Performed At: 2024-04-04 16:25:48.287762
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-04 19:32:34.670227
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is 1:
+    Time of Execution: 6
+
+Task Performed At: 2024-04-04 19:40:25.294902
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-04-04 19:40:40.176424
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-04 19:40:55.359122
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is 0:
+    Time of Execution: 1
+
+Task Performed At: 2024-04-05 11:51:01.619583
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 1
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-04-05 11:53:02.974188
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-05 12:29:07.994282
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-04-05 12:31:36.294372
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-04-05 15:11:22.135161
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 19
+    Transfering Time For Marg is: 136
+    Time of Execution: 155
+
+**************************************************************
+
+Task Performed At: 2024-04-05 15:21:14.130439
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 13
+    Transfering Time For Marg is: 130
+    Time of Execution: 143
+
+**************************************************************
+
+Task Performed At: 2024-04-05 15:31:00.700109
+
+    Loading... SalesAfterDis_V2.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis_V2'' Created
+
+    Loading Time Form SaleSreip is: 14
+    Transfering Time For Marg is: 134
+    Time of Execution: 149
+
+**************************************************************
+
+Task Performed At: 2024-04-05 15:57:38.788337
+
+    Loading... SalesAfterDis_V2.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis_V2'' Created
+
+    Loading Time Form SaleSreip is: 15
+    Transfering Time For Marg is: 154
+    Time of Execution: 169
+
+**************************************************************
+
+Task Performed At: 2024-04-05 16:54:11.743508
+
+    Loading... SalesAfterDis_V2.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis_V2'' Created
+
+    Loading Time Form SaleSreip is: 14
+    Transfering Time For Marg is: 156
+    Time of Execution: 171
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-05 19:07:09.488529
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is 2:
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-04-08 17:51:21.171951
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 1:
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-04-09 19:26:08.178300
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is 1:
+    Time of Execution: 6
+
+Task Performed At: 2024-04-09 19:27:32.266543
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-10 19:02:21.557096
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 1
+    Time of Execution: 6
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-10 19:02:32.596923
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 2:
+    Time of Execution: 6
+
+Task Performed At: 2024-04-11 18:03:15.722456
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 9
+    Transfering Time For Marg is: 1
+    Time of Execution: 11
+
+**************************************************************
+
+Task Performed At: 2024-04-11 18:04:13.407496
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 7
+    Transfering Time For Marg is: 1
+    Time of Execution: 9
+
+**************************************************************
+
+Task Performed At: 2024-04-11 18:04:33.688763
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAPPlan'' Created
+
+    Loading Time Form SaleSreip is: 47
+    Transfering Time For Marg is: 8
+    Time of Execution: 55
+
+**************************************************************
+
+Task Performed At: 2024-04-11 18:12:52.381527
+
+    Loading... DCR_FMC_Ach.sql 
+
+
+
+Task Performed At: 2024-04-11 18:14:15.837128
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 11
+    Transfering Time For Marg is: 0
+    Time of Execution: 12
+
+**************************************************************
+
+Task Performed At: 2024-04-11 18:19:42.604752
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 1
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-11 18:22:54.448117
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SurvedAch'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-11 18:25:46.914573
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''RegularDoctorCalls'' Created
+
+    Loading Time Form SaleSreip is: 14
+    Transfering Time For Marg is: 0
+    Time of Execution: 14
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-12 12:29:57.691508
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is 1:
+    Time of Execution: 6
+
+Task Performed At: 2024-04-15 14:33:58.176191
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 26
+    Transfering Time For Marg is: 2
+    Time of Execution: 29
+
+**************************************************************
+
+Task Performed At: 2024-04-15 16:34:36.134038
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 2
+    Time of Execution: 4
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-25 12:24:01.448018
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 1:
+    Time of Execution: 5
+
+Task Performed At: 2024-04-25 15:36:40.628767
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-04-25 15:36:53.192072
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-25 15:37:07.624457
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is 0:
+    Time of Execution: 3
+
+Task Performed At: 2024-04-25 17:23:33.769539
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 8
+    Transfering Time For Marg is: 3
+    Time of Execution: 11
+
+**************************************************************
+
+Task Performed At: 2024-04-25 17:24:19.364475
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SurvedAch'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-25 17:24:31.272146
+
+    Loading... FAPPlan.sql 
+
+
+
+Task Performed At: 2024-04-25 17:24:39.227998
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 101
+    Transfering Time For Marg is: 0
+    Time of Execution: 102
+
+**************************************************************
+
+Task Performed At: 2024-04-25 17:23:50.589802
+
+    Loading... DCR_FMC_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCR_FMC_Ach'' Created
+
+    Loading Time Form SaleSreip is: 245
+    Transfering Time For Marg is: 1
+    Time of Execution: 247
+
+**************************************************************
+
+Task Performed At: 2024-04-25 17:24:24.613164
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''RegularDoctorCalls'' Created
+
+    Loading Time Form SaleSreip is: 256
+    Transfering Time For Marg is: 0
+    Time of Execution: 257
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-25 17:29:43.904405
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name CRMCoreCustomer Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is 2:
+    Time of Execution: 7
+
+    Loading... DCR_FMC_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name DCR_FMC_Ach Created
+
+    Loading Time Form SaleSreip is: 94
+    Transfering Time For Marg is 0:
+    Time of Execution: 94
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name FAPPlan Created
+
+    Loading Time Form SaleSreip is: 23
+    Transfering Time For Marg is 7:
+    Time of Execution: 31
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name FAP_R_R_Ach Created
+
+    Loading Time Form SaleSreip is: 9
+    Transfering Time For Marg is 0:
+    Time of Execution: 10
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name RegularDoctorCalls Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is 0:
+    Time of Execution: 2
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+    Completed: Table Name SurvedAch Created
+
+    Loading Time Form SaleSreip is: 0
+    Transfering Time For Marg is 0:
+    Time of Execution: 1
+
+
+    Total Time of Execution: 154
+
+Task Performed At: 2024-04-25 17:32:35.309135
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SurvedAch'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-27 12:29:51.666717
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAPPlan'' Created
+
+    Loading Time Form SaleSreip is: 7
+    Transfering Time For Marg is: 9
+    Time of Execution: 17
+
+**************************************************************
+
+Task Performed At: 2024-04-27 15:47:58.526312
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-04-27 17:27:36.962428
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-29 15:12:14.765741
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 1:
+    Time of Execution: 5
+
+Task Performed At: 2024-04-29 16:32:14.721405
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-04-29 16:59:04.707994
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-04-29 17:46:56.497380
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-29 17:48:44.796172
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is 1:
+    Time of Execution: 6
+
+Task Performed At: 2024-04-29 17:54:27.348455
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-29 18:21:10.811231
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-29 18:22:49.999050
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-29 19:15:04.046640
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 2:
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-04-29 19:17:57.852549
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 1:
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-04-29 19:20:18.268474
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is 1:
+    Time of Execution: 5
+
+Task Performed At: 2024-04-30 11:48:24.130583
+
+    Loading... SalesPlanWCPA.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesPlanWCPA'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-04-30 12:42:28.990568
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-04-30 19:16:23.244839
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 1
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-04-30 19:16:31.448001
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-04-30 19:16:50.126238
+
+    Loading... Billdet_EDA.sql 
+
+    Transfering Data
+
+    Completed: Table Name Billdet_EDA Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is 0:
+    Time of Execution: 3
+
+Task Performed At: 2024-05-01 12:20:23.219805
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 25
+    Transfering Time For Marg is: 136
+    Time of Execution: 161
+
+**************************************************************
+
+Task Performed At: 2024-05-01 14:24:58.434182
+
+    Loading... Product.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Product'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-01 14:32:50.916338
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 16
+    Transfering Time For Marg is: 134
+    Time of Execution: 150
+
+**************************************************************
+
+Task Performed At: 2024-05-01 15:05:42.309962
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 18
+    Transfering Time For Marg is: 140
+    Time of Execution: 159
+
+**************************************************************
+
+Task Performed At: 2024-05-01 15:15:50.867629
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 22
+    Transfering Time For Marg is: 135
+    Time of Execution: 158
+
+**************************************************************
+
+Task Performed At: 2024-05-01 15:56:26.502711
+
+    Loading... SalesAfterDis.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesAfterDis'' Created
+
+    Loading Time Form SaleSreip is: 20
+    Transfering Time For Marg is: 155
+    Time of Execution: 176
+
+**************************************************************
+
+Task Performed At: 2024-05-04 11:45:02.022005
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-04 11:47:40.942266
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-04 19:43:02.236383
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 11
+    Transfering Time For Marg is: 0
+    Time of Execution: 11
+
+**************************************************************
+
+Task Performed At: 2024-05-04 19:55:44.774365
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 0
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-06 12:50:50.472552
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement'' Created
+
+    Loading Time Form SaleSreip is: 8
+    Transfering Time For Marg is: 4
+    Time of Execution: 13
+
+**************************************************************
+
+Task Performed At: 2024-05-06 12:51:13.262658
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 2
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-06 12:59:23.838369
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-06 13:10:00.204377
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-05-06 14:06:52.856534
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement'' Created
+
+    Loading Time Form SaleSreip is: 7
+    Transfering Time For Marg is: 4
+    Time of Execution: 12
+
+**************************************************************
+
+**************************************************************
+
+Task Performed At: 2024-05-06 16:03:25.580634
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name CRMCoreCustomer Created
+
+    Loading Time Form SaleSreip is: 9
+    Transfering Time For Marg is 3:
+    Time of Execution: 12
+
+    Loading... DCR_FMC_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name DCR_FMC_Ach Created
+
+    Loading Time Form SaleSreip is: 198
+    Transfering Time For Marg is 0:
+    Time of Execution: 198
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name DeviationCount Created
+
+    Loading Time Form SaleSreip is: 79
+    Transfering Time For Marg is 0:
+    Time of Execution: 79
+
+    Loading... DoctorAchievment.sql 
+
+    Transfering Data
+
+    Completed: Table Name DoctorAchievment Created
+
+    Loading Time Form SaleSreip is: 25
+    Transfering Time For Marg is 40:
+    Time of Execution: 66
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name FAPPlan Created
+
+    Loading Time Form SaleSreip is: 9
+    Transfering Time For Marg is 8:
+    Time of Execution: 18
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name FAP_R_R_Ach Created
+
+    Loading Time Form SaleSreip is: 15
+    Transfering Time For Marg is 0:
+    Time of Execution: 16
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name RegularDoctorCalls Created
+
+    Loading Time Form SaleSreip is: 80
+    Transfering Time For Marg is 0:
+    Time of Execution: 81
+
+    Loading... SalesPlanWCPA.sql 
+
+    Transfering Data
+
+    Completed: Table Name SalesPlanWCPA Created
+
+    Loading Time Form SaleSreip is: 0
+    Transfering Time For Marg is 0:
+    Time of Execution: 1
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+    Completed: Table Name SurvedAch Created
+
+    Loading Time Form SaleSreip is: 26
+    Transfering Time For Marg is 0:
+    Time of Execution: 27
+
+
+    Total Time of Execution: 511
+
+**************************************************************
+
+Task Performed At: 2024-05-06 16:33:59.511641
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name DA_DoctorAchievement Created
+
+    Loading Time Form SaleSreip is: 6
+    Transfering Time For Marg is 4:
+    Time of Execution: 11
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name DA_DoctorList Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is 2:
+    Time of Execution: 4
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name Employee Created
+
+    Loading Time Form SaleSreip is: 0
+    Transfering Time For Marg is 0:
+    Time of Execution: 0
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name HeadQuarter Created
+
+    Loading Time Form SaleSreip is: 0
+    Transfering Time For Marg is 0:
+    Time of Execution: 0
+
+
+    Total Time of Execution: 20
+
+Task Performed At: 2024-05-06 16:36:35.764504
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-06 16:36:40.734504
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-06 16:42:34.602311
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-06 16:52:35.204314
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-06 19:11:10.678143
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-07 14:07:48.735041
+
+    Loading... DCRDetail.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCRDetail'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 3
+    Time of Execution: 8
+
+**************************************************************
+
+Task Performed At: 2024-05-07 14:10:09.339808
+
+    Loading... DCRDetail.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCRDetail'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 3
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-05-07 14:34:37.227510
+
+    Loading... DCRDetail.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCRDetail'' Created
+
+    Loading Time Form SaleSreip is: 131
+    Transfering Time For Marg is: 26
+    Time of Execution: 158
+
+**************************************************************
+
+Task Performed At: 2024-05-07 14:55:35.093604
+
+    Loading... DCR_Doctor.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCR_Doctor'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-07 16:21:32.100798
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:23:26.611628
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 1
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:23:33.530533
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 0
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:23:43.216757
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:23:48.613671
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 23
+    Transfering Time For Marg is: 2
+    Time of Execution: 26
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:23:04.200224
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement'' Created
+
+    Loading Time Form SaleSreip is: 75
+    Transfering Time For Marg is: 5
+    Time of Execution: 81
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:32:22.330047
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 28
+    Transfering Time For Marg is: 2
+    Time of Execution: 30
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:32:43.240057
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAPPlan'' Created
+
+    Loading Time Form SaleSreip is: 25
+    Transfering Time For Marg is: 8
+    Time of Execution: 34
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:32:38.090028
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 40
+    Transfering Time For Marg is: 0
+    Time of Execution: 41
+
+**************************************************************
+
+Task Performed At: 2024-05-08 12:32:27.440073
+
+    Loading... DCR_FMC_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCR_FMC_Ach'' Created
+
+    Loading Time Form SaleSreip is: 243
+    Transfering Time For Marg is: 0
+    Time of Execution: 243
+
+**************************************************************
+
+Task Performed At: 2024-05-09 11:35:49.493631
+
+    Loading... DoctorAchievment.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DoctorAchievment'' Created
+
+    Loading Time Form SaleSreip is: 56
+    Transfering Time For Marg is: 58
+    Time of Execution: 115
+
+**************************************************************
+
+Task Performed At: 2024-05-09 12:14:13.996493
+
+    Loading... DCRDetail.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCRDetail'' Created
+
+    Loading Time Form SaleSreip is: 228
+    Transfering Time For Marg is: 25
+    Time of Execution: 253
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:35:06.329421
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:35:34.455494
+
+    Loading... SalesPlanWCPA.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesPlanWCPA'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:35:11.391063
+
+    Loading... DoctorAchievment.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DoctorAchievment'' Created
+
+    Loading Time Form SaleSreip is: 29
+    Transfering Time For Marg is: 46
+    Time of Execution: 76
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:35:37.548517
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+
+
+Task Performed At: 2024-05-14 17:35:26.254338
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAPPlan'' Created
+
+    Loading Time Form SaleSreip is: 25
+    Transfering Time For Marg is: 46
+    Time of Execution: 72
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:35:21.609724
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+
+
+Task Performed At: 2024-05-14 17:35:29.972175
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''RegularDoctorCalls'' Created
+
+    Loading Time Form SaleSreip is: 119
+    Transfering Time For Marg is: 1
+    Time of Execution: 121
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:13.172312
+
+    Loading... SurvedAch.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SurvedAch'' Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is: 0
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:18.030540
+
+    Loading... SalesPlanWCPA.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SalesPlanWCPA'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:23.326513
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''RegularDoctorCalls'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:29.267995
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAPPlan'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 9
+    Time of Execution: 14
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:44.716785
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 0
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:34.413049
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 22
+    Transfering Time For Marg is: 0
+    Time of Execution: 23
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:55.087236
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:42:49.903065
+
+    Loading... DCR_FMC_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCR_FMC_Ach'' Created
+
+    Loading Time Form SaleSreip is: 9
+    Transfering Time For Marg is: 1
+    Time of Execution: 11
+
+**************************************************************
+
+Task Performed At: 2024-05-14 17:54:20.558385
+
+    Loading... SalestripToSalesDataForSingleFile.py 
+
+
+
+Task Performed At: 2024-05-14 17:55:10.671883
+
+    Loading... DoctorAchievment.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DoctorAchievment'' Created
+
+    Loading Time Form SaleSreip is: 12
+    Transfering Time For Marg is: 46
+    Time of Execution: 59
+
+**************************************************************
+
+Task Performed At: 2024-05-15 16:36:19.543799
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-05-15 16:36:27.894787
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-15 16:36:49.000983
+
+    Loading... HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-15 16:36:13.537033
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement'' Created
+
+    Loading Time Form SaleSreip is: 140
+    Transfering Time For Marg is: 3
+    Time of Execution: 143
+
+**************************************************************
+
+Task Performed At: 2024-05-15 16:36:33.604776
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 131
+    Transfering Time For Marg is: 0
+    Time of Execution: 132
+
+**************************************************************
+
+Task Performed At: 2024-05-15 18:40:27.471956
+
+    Loading... DA_DoctorList_Frutivit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList_Frutivit'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 2
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-15 18:40:34.502132
+
+    Loading... DA_DoctorAchievement_Frutivit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement_Frutivit'' Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is: 6
+    Time of Execution: 11
+
+**************************************************************
+
+Task Performed At: 2024-05-17 12:45:32.740204
+
+    Loading... Tgt UnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Tgt UnPivot'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 1
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-17 12:46:04.071909
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-17 12:48:56.718200
+
+    Loading... Target.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Target'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-17 12:59:02.800570
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-17 17:30:43.309028
+
+    Loading... IN_DrCountWCPA.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''IN_DrCountWCPA'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 0
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:31:05.754060
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 31
+    Transfering Time For Marg is: 3
+    Time of Execution: 35
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:31:44.394815
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:32:06.171117
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is: 1
+    Time of Execution: 7
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:32:21.699011
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 1
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:32:11.872904
+
+    Loading... DA_DoctorList_Frutivit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList_Frutivit'' Created
+
+    Loading Time Form SaleSreip is: 82
+    Transfering Time For Marg is: 2
+    Time of Execution: 84
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:32:00.282138
+
+    Loading... DA_DoctorAchievement_Frutivit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement_Frutivit'' Created
+
+    Loading Time Form SaleSreip is: 272
+    Transfering Time For Marg is: 6
+    Time of Execution: 278
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:31:53.752245
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement'' Created
+
+    Loading Time Form SaleSreip is: 279
+    Transfering Time For Marg is: 9
+    Time of Execution: 289
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:31:21.157039
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 359
+    Transfering Time For Marg is: 0
+    Time of Execution: 359
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:32:27.911184
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 292
+    Transfering Time For Marg is: 0
+    Time of Execution: 292
+
+**************************************************************
+
+Task Performed At: 2024-05-18 18:31:16.845467
+
+    Loading... DCR_FMC_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCR_FMC_Ach'' Created
+
+    Loading Time Form SaleSreip is: 399
+    Transfering Time For Marg is: 0
+    Time of Execution: 399
+
+**************************************************************
+
+Task Performed At: 2024-05-21 11:09:08.400891
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 0
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-22 10:53:44.561634
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 5
+    Transfering Time For Marg is: 5
+    Time of Execution: 11
+
+**************************************************************
+
+Task Performed At: 2024-05-22 10:56:14.745069
+
+    Loading... FAPPlan.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAPPlan'' Created
+
+    Loading Time Form SaleSreip is: 34
+    Transfering Time For Marg is: 8
+    Time of Execution: 42
+
+**************************************************************
+
+Task Performed At: 2024-05-22 10:57:06.533989
+
+    Loading... FAP_R_R_Ach.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''FAP_R_R_Ach'' Created
+
+    Loading Time Form SaleSreip is: 20
+    Transfering Time For Marg is: 0
+    Time of Execution: 20
+
+**************************************************************
+
+Task Performed At: 2024-05-22 10:57:31.477655
+
+    Loading... CRMCoreCustomer.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''CRMCoreCustomer'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 2
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-22 11:00:40.316512
+
+    Loading... DA_DoctorAchievement.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement'' Created
+
+    Loading Time Form SaleSreip is: 68
+    Transfering Time For Marg is: 5
+    Time of Execution: 73
+
+**************************************************************
+
+Task Performed At: 2024-05-22 11:01:58.247314
+
+    Loading... DA_DoctorList.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 3
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-05-22 11:02:09.151553
+
+    Loading... DA_DoctorAchievement_Frutivit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorAchievement_Frutivit'' Created
+
+    Loading Time Form SaleSreip is: 7
+    Transfering Time For Marg is: 5
+    Time of Execution: 13
+
+**************************************************************
+
+Task Performed At: 2024-05-22 11:02:20.875250
+
+    Loading... DA_DoctorList_Frutivit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_DoctorList_Frutivit'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 2
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-22 11:59:43.045210
+
+    Loading... RegularDoctorCalls.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''RegularDoctorCalls'' Created
+
+    Loading Time Form SaleSreip is: 81
+    Transfering Time For Marg is: 0
+    Time of Execution: 81
+
+**************************************************************
+
+Task Performed At: 2024-05-22 12:02:46.605422
+
+    Loading... DoctorAchievment.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DoctorAchievment'' Created
+
+    Loading Time Form SaleSreip is: 56
+    Transfering Time For Marg is: 42
+    Time of Execution: 98
+
+**************************************************************
+
+Task Performed At: 2024-05-22 12:06:06.889109
+
+    Loading... DeviationCount.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DeviationCount'' Created
+
+    Loading Time Form SaleSreip is: 80
+    Transfering Time For Marg is: 1
+    Time of Execution: 82
+
+**************************************************************
+
+Task Performed At: 2024-05-22 16:03:58.647568
+
+    Loading... DCRDetail.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DCRDetail'' Created
+
+    Loading Time Form SaleSreip is: 227
+    Transfering Time For Marg is: 24
+    Time of Execution: 252
+
+**************************************************************
+
+Task Performed At: 2024-05-29 15:54:16.853346
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 1
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-29 15:55:34.711735
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 11
+    Transfering Time For Marg is: 3
+    Time of Execution: 15
+
+**************************************************************
+
+Task Performed At: 2024-05-29 15:56:01.637430
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-29 16:12:12.025264
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 61
+    Transfering Time For Marg is: 9
+    Time of Execution: 70
+
+**************************************************************
+
+Task Performed At: 2024-05-29 18:58:39.488101
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 1
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:33:17.129464
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 1
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:33:23.569387
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:33:27.209385
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 176
+    Transfering Time For Marg is: 10
+    Time of Execution: 186
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:50:22.576827
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:50:26.747714
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:50:31.547710
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 16
+    Transfering Time For Marg is: 9
+    Time of Execution: 25
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:53:57.574153
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:54:01.934433
+
+    Loading... DA_HeadQuarter.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''DA_HeadQuarter'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-05-30 14:53:53.904154
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 16
+    Transfering Time For Marg is: 9
+    Time of Execution: 26
+
+**************************************************************
+
+Task Performed At: 2024-05-30 18:25:30.201252
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 25
+    Transfering Time For Marg is: 167
+    Time of Execution: 192
+
+**************************************************************
+
+Task Performed At: 2024-06-01 13:05:50.391918
+
+    Loading... Target.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Target'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 2
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-06-01 13:05:54.631936
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-06-01 13:05:58.187015
+
+    Loading... Tgt UnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Tgt UnPivot'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-06-01 13:06:19.961798
+
+    Loading... Employee.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Employee'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-06-01 15:54:47.350229
+
+    Loading... Target.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Target'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-06-01 15:54:51.312814
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-06-01 15:54:54.962834
+
+    Loading... Tgt UnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Tgt UnPivot'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-06-03 19:07:37.761742
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 2
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-06-03 19:17:30.980604
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-06-04 13:08:06.403066
+
+    Loading... StockistMaster.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''StockistMaster'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 1
+    Time of Execution: 5
+
+**************************************************************
+
+Task Performed At: 2024-06-04 13:08:14.792348
+
+    Loading... SecSales_HQID.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''SecSales_HQID'' Created
+
+    Loading Time Form SaleSreip is: 215
+    Transfering Time For Marg is: 180
+    Time of Execution: 395
+
+**************************************************************
+
+Task Performed At: 2024-06-05 13:00:02.417404
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 4
+    Transfering Time For Marg is: 2
+    Time of Execution: 6
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:17.083100
+
+    Loading... PoolDistribution.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''PoolDistribution'' Created
+
+    Loading Time Form SaleSreip is: 2
+    Transfering Time For Marg is: 1
+    Time of Execution: 4
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:20.689484
+
+    Loading... Transit.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Transit'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:27.805733
+
+    Loading... Target.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Target'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:31.610147
+
+    Loading... TargetUnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''TargetUnPivot'' Created
+
+    Loading Time Form SaleSreip is: 3
+    Transfering Time For Marg is: 0
+    Time of Execution: 3
+
+**************************************************************
+
+Task Performed At: 2024-06-05 15:18:35.637994
+
+    Loading... Tgt UnPivot.sql 
+
+    Transfering Data
+
+    Completed: Table Name ''Tgt UnPivot'' Created
+
+    Loading Time Form SaleSreip is: 1
+    Transfering Time For Marg is: 0
+    Time of Execution: 2
+
+**************************************************************
