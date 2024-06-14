@@ -14,7 +14,40 @@
     </header>
     <section id="article">
         <div class="container">
-            <p class="article-meta">Published on: May 21, 2024</p>
+            <h2>Telegram BOT with Python</h2>
+            <p class="article-meta">Published on: June 14, 2024</p>
+            <p>As part of my recent work, I developed a comprehensive Telegram bot using Python, aimed at centralizing information and communication channels within an organization. This bot simplifies access to relevant data and resources, enhancing user experience and operational efficiency.</p>
+            <h3>Key Features</h3>
+            <p>The Telegram bot offers the following functionalities:</p>
+            <ul>
+                <li><strong>Start:</strong> Initiates the bot and provides a welcome message.</li>
+                <li><strong>Career:</strong> Provides information about current job openings and includes a link to a Google Form for applicants interested in joining the company.</li>
+                <li><strong>My Info:</strong> Allows users to request their personal information stored on the company server.</li>
+                <li><strong>Primary:</strong> Similar to "My Info," this option enables users to access Daily Primary Sales data specific to their roles.</li>
+                <li><strong>Get Document:</strong> Facilitates the retrieval of specific documents of current Quarter Scheme from the company server.</li>
+            </ul>
+            <p>Note: The "My Info," "Primary," and "Get Document" options enable users to request and receive their files directly via Telegram. The document sender system handles these requests.</p>
+            <h3>Document Sender System Workflow</h3>
+            <ul>
+                <li>A user requests a document through the Telegram app.</li>
+                <li>The backend Python code retrieves the user's Telegram ID.</li>
+                <li>The system compares this Telegram ID with existing user IDs in the company server.</li>
+                <li>Upon matching the ID, the system identifies the employee's name associated with the ID.</li>
+                <li>The requested document is then pushed to the user's Telegram app via the backend.</li>
+            </ul>
+            <h3>Technical Implementation</h3>
+            <ul>
+                <li><strong>Backend Development Tech:</strong>Python</li>
+                <li><strong>Libraries:</strong></li>
+                <ol>
+                    <li><strong>python-telegram-bot:</strong> For Telegram bot functionalities.</li>
+                    <li><strong>Pandas:</strong></li>
+                </ol>
+                <li><strong>Hosting:</strong> PythonAnywhere, ensuring the bot is available 24/7.</li>
+            </ul>
+            <h3>Conclusion</h3>
+            <p>This project showcases my skills in developing efficient communication tools using Python and integrating them with organizational data systems to streamline information access and improve user interaction.</p>
+            <p>Note: The "My Info," "Primary," and "Get Document" options enable users to request and receive their files directly via Telegram. The document sender system handles these requests.</p>
             <img src="Img/Telegram/Telegram_Python1.PNG" alt="ETL vs ELT" class="article-image">
             <img src="Img/Telegram/Telegram_Python2.PNG" alt="ETL vs ELT" class="article-image">
             <img src="Img/Telegram/1st.PNG" alt="ETL vs ELT" class="article-image">
@@ -25,7 +58,6 @@
             <img src="Img/Telegram/getdocument.PNG" alt="ETL vs ELT" class="article-image">
         </div>
     </section>
-
     <footer>
         <div class="container">
             <p>&copy; 2024 DataWithAditya. All rights reserved.</p>
