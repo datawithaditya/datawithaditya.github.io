@@ -14,7 +14,25 @@
     </header>
     <section id="article">
         <div class="container">
+            <h2>ETL Process: Extract, Transform, Load (Python + SQL)</h2>
             <p class="article-meta">Published on: May 21, 2024</p>
+            <p>ETL, which stands for Extract, Transform, and Load, is a crucial process in data management and integration. It involves extracting data from various sources, transforming it to meet business requirements, and loading it into a data warehouse for analysis and reporting.</p>
+            <h3>Extract</h3>
+            <p>The extraction phase involves retrieving data from different source systems. This data can come from databases, files, APIs, or other data streams. In the context of my project, we used SQL Server as the source system, leveraging SQL queries to extract the required data efficiently.</p>
+            <h3>Transform</h3>
+            <p>Transformation is the process of converting extracted data into a format that meets the specific needs of the business. This can involve cleaning, filtering, aggregating, and enriching the data. In our project, transformations occur while data is being extracted using the SQL engine of SQL Server. We utilized Python libraries such as pyodbc for connecting to the SQL Server via ODBC, and SQLAlchemy for handling database operations.</p>
+            <h3>Load</h3>
+            <p>Loading is the final step where the transformed data is inserted into the target data warehouse. In our project, after ensuring that no existing data overlaps within the specified time frame, we append the new data to the target table. This step ensures that the data warehouse remains up-to-date and ready for analysis.</p>
+            <h3>Project Workflow</h3>
+            <ul>
+                <li><strong>Scheduling:</strong> The entire process is automated using a Python script scheduled to run at specific intervals via Windows Task Scheduler.</li>
+                <li><strong>Data Extraction:</strong> The script retrieves SQL queries (or a folder of SQL query files) from a predefined location and executes them on the source SQL Server.</li>
+                <li><strong>Data Checking and Deletion:</strong> Before loading new data, the script checks the destination to see if any data within the specified time frame already exists and deletes it if found.</li>
+                <li><strong>Data Loading:</strong> The new data is then appended to the target table in the data warehouse.</li>
+                <li><strong>Operation Logging:</strong> The script logs details of the operation, including the time taken to pull data from the source server and the time taken to load data to the destination server.</li>
+            </ul>
+            <h3>Conclusion</h3>
+            <p>In any organization, having robust data warehouses and reliable data pipelines is essential. These systems ensure that data is transferred accurately and efficiently, maintaining data integrity and quality. Our project demonstrates a streamlined approach to ETL, emphasizing the importance of automated processes and thorough data management practices.</p>
             <img src="Img/ETL/ETLCMD.PNG" alt="ETL vs ELT" class="article-image">
             <img src="Img/ETL/SQL1.PNG" alt="ETL vs ELT" class="article-image">        
             <img src="Img/ETL/SQL2.PNG" alt="ETL vs ELT" class="article-image">
