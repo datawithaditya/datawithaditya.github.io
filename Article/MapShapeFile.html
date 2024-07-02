@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive District Maps with Folium and GeoPandas</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+		.containerMap {
+		  position: relative;
+		  width: 100%;
+		  overflow: hidden;
+		  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+		}
+
+		.responsive-iframe {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  bottom: 0;
+		  right: 0;
+		  width: 100%;
+		  height: 100%;
+		  border: none;
+		}
+	</style>
 </head>
 <body>
     <header>
@@ -29,9 +48,12 @@
                 <li><strong>Matplotlib:</strong> For handling color maps.</li>
                 <li><strong>Pandas:</strong> For data manipulation.</li>
             </ul>
-			<h3>Interactive Map</h3>
+	<h3>Interactive Map</h3>
             <p>Below is the complete code for creating an interactive map with district sales and population data:</p>
-			<iframe src="Img/MapShapeFile/HQMap.html" width="700" height="800" style="border:none;"></iframe>
+	<div class="containerMap">>
+		<iframe class="responsive-iframe" src="Img/MapShapeFile/HQMap.html"></iframe>
+	</div>
+
         </div>
     </section>
 
