@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flask Web App – Employee Performance Portal</title>
+  <meta name="description" content="Employee performance tracking web app built with Flask, SQL Server, and JSON, featuring secure ETL pipeline and cloud deployment.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="https://datawithaditya.github.io" style="text-decoration:none">
+        <h1>Data With Aditya</h1>
+      </a>
+    </div>
+  </header>
+
+  <section id="article">
+    <div class="container">
+      <h2>Employee Web Portal – Flask + SQL + PythonAnywhere</h2>
+      <p class="article-meta">Published on: July 11, 2024</p>
+
+      <img src="Img/FlaskPortal/portal_preview.png" alt="Flask Web App Preview" class="article-image">
+
+      <p>This full-stack web app was developed for Synchem Pharmaceuticals to help employees securely access their performance reports and incentive summaries in real-time. The app integrates a backend ETL process with a modern Flask UI and is hosted live on the cloud using a secure static IP connection.</p>
+
+      <h3>⚙️ Technologies Used</h3>
+      <ul>
+        <li>Flask (Python Web Framework)</li>
+        <li>Azure SQL Server (Data Source)</li>
+        <li>Python (pandas, JSON, pyodbc)</li>
+        <li>PythonAnywhere (Web Deployment)</li>
+      </ul>
+
+      <h3>🚀 Features</h3>
+      <ul>
+        <li><strong>Secure ETL:</strong> Daily automated ETL pipeline fetches data from Azure SQL to a local server and syncs to PythonAnywhere using a static IP.</li>
+        <li><strong>JSON-Structured Data:</strong> Employee incentive and activity data is formatted in JSON for modular handling and MongoDB compatibility.</li>
+        <li><strong>Custom Dashboards:</strong> Each employee sees a filtered dashboard relevant to their targets and KPIs.</li>
+        <li><strong>Access Control:</strong> Login-based access with personalized routing to individual pages.</li>
+      </ul>
+
+      <h3>📈 Impact</h3>
+      <p>
+        This web app improved visibility and accountability for over 100 field employees. It significantly reduced manual report generation time and allowed the HR and sales leadership to monitor incentive metrics in real time.
+      </p>
+
+      <h3>🧠 Learnings</h3>
+      <p>
+        The project enhanced my experience in API design, data structuring with JSON, and working with production deployment using PythonAnywhere and Azure.
+      </p>
+
+      <h3>Architecture Diagram</h3>
+      <img src="Img/FlaskPortal/architecture_diagram.png" alt="System Architecture" class="article-image">
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 DataWithAditya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
