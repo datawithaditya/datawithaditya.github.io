@@ -1,0 +1,150 @@
+---
+import '../styles/global.css';
+import { site } from '../data/site';
+
+interface Props {
+  frontmatter: {
+    title?: string;
+    description?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+const canonical = new URL(Astro.url.pathname, site.url).toString();
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{frontmatter.title ?? site.title}</title>
+  <meta name="description" content={frontmatter.description ?? ''} />
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'IBM Plex Sans', sans-serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.4rem;
+    }
+    .doc-meta {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--ink4);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid var(--ink);
+    }
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 3rem;
+      margin-bottom: 0.8rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--bdr);
+      color: var(--ink);
+    }
+    h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1.75rem;
+      margin-bottom: 0.5rem;
+      color: var(--ink);
+    }
+    h4 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-top: 1.5rem;
+      margin-bottom: 0.4rem;
+    }
+    p { margin-bottom: 1rem; font-size: 0.95rem; color: var(--ink2); }
+    p strong { color: var(--ink); font-weight: 600; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 1rem; }
+    li { font-size: 0.93rem; margin-bottom: 0.45rem; color: var(--ink2); line-height: 1.7; }
+    li strong { color: var(--ink); }
+    blockquote {
+      border-left: 3px solid var(--red);
+      padding: 0.8rem 1.1rem;
+      margin: 1.5rem 0;
+      background: var(--red-bg);
+      font-style: italic;
+      color: var(--ink2);
+      font-size: 0.94rem;
+    }
+    blockquote p { margin: 0; color: inherit; font-size: inherit; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.88rem;
+    }
+    th {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 2px solid var(--ink);
+      font-weight: 600;
+      color: var(--ink);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--bdr);
+      color: var(--ink2);
+      vertical-align: top;
+    }
+    td strong { color: var(--ink); }
+    hr {
+      border: none;
+      border-top: 2px solid var(--bdr);
+      margin: 2.5rem 0;
+    }
+    code {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.82rem;
+      background: var(--red-bg);
+      color: var(--red);
+      padding: 0.1em 0.4em;
+      border-radius: 2px;
+    }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (max-width: 640px) {
+      body { padding: 2rem 1.25rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+  <slot />
+</body>
+</html>
