@@ -22,6 +22,7 @@ description: "Personal career document — freelancing strategy, service positio
 <li><a href="#part-10">Financial Setup</a></li>
 <li><a href="#part-11">Working While Employed</a></li>
 <li><a href="#part-12">Failure Modes & Recovery</a></li>
+<li><a href="#part-13">5-Year Revenue Projection</a></li>
 </ol>
 </div>
 
@@ -917,6 +918,77 @@ Check your contract specifically. Most Indian employment contracts prohibit "com
 
 **The most common failure mode.** Portfolio isn't ready. Rate isn't set. Profile needs one more thing.  
 **Recovery:** Send the first proposal today. Everything else is procrastination wearing the mask of preparation. The first 10 proposals will teach you more than 10 hours of planning.
+
+---
+
+---
+
+## Part 13 — 5-Year Revenue Projection {#part-13}
+
+<div class="callout">
+
+**Base assumption:** ₹84/USD held constant. Year 1 is part-time (employed for 6–9 months). Full-time from Year 2. MCP server projects billed at international rates regardless of client location.
+
+</div>
+
+### Three scenarios
+
+#### Conservative — Indian clients, slow rate growth
+
+| Year | Key milestone | Monthly avg | Annual |
+|---|---|---|---|
+| Year 1 | Part-time, 3–5 Upwork reviews, first retainer | ₹25,000 | ₹3,00,000 |
+| Year 2 | Full-time, 2 retainers + Indian project work | ₹75,000 | ₹9,00,000 |
+| Year 3 | Upwork at $40/hr, 1 MCP project/quarter | ₹1,40,000 | ₹16,80,000 |
+| Year 4 | Upwork at $55/hr, 3 retainers | ₹2,00,000 | ₹24,00,000 |
+| Year 5 | $65/hr, stable retainer base | ₹2,50,000 | ₹30,00,000 |
+| **Total** | | | **₹82,80,000** |
+
+#### Realistic — Mix of Indian + international, MCP takes hold
+
+| Year | Key milestone | Monthly avg | Annual |
+|---|---|---|---|
+| Year 1 | Part-time, first international client, 1 MCP project | ₹40,000 | ₹4,80,000 |
+| Year 2 | Full-time, Toptal or direct USD clients, 2–3 retainers | ₹1,20,000 | ₹14,40,000 |
+| Year 3 | $60/hr Upwork, 2 MCP projects/quarter at $3k–$5k each | ₹2,20,000 | ₹26,40,000 |
+| Year 4 | $80/hr, MCP retainers + automation retainers | ₹3,20,000 | ₹38,40,000 |
+| Year 5 | $90–$100/hr, known MCP specialist, referral-driven | ₹4,20,000 | ₹50,40,000 |
+| **Total** | | | **₹1,34,40,000** |
+
+#### Optimistic — International-first, MCP/AI market accelerates
+
+| Year | Key milestone | Monthly avg | Annual |
+|---|---|---|---|
+| Year 1 | Early MCP traction, $3k project closes, 2 retainers | ₹55,000 | ₹6,60,000 |
+| Year 2 | Toptal listed at $90/hr, 2 MCP projects/quarter | ₹1,80,000 | ₹21,60,000 |
+| Year 3 | $120/hr MCP specialist rate, productised offering | ₹3,50,000 | ₹42,00,000 |
+| Year 4 | $150/hr, $8k+ MCP projects + retainers | ₹5,50,000 | ₹66,00,000 |
+| Year 5 | Agency or productised SaaS, team of 2–3 | ₹8,00,000 | ₹96,00,000 |
+| **Total** | | | **₹2,32,20,000** |
+
+### Why ₹1,34,40,000 is achievable
+
+The realistic scenario holds up because the numbers are grounded in rate benchmarks, not optimism.
+
+**Year 2 at ₹1,20,000/month** requires one international Upwork client at $40/hr doing 15 billable hours/week ($2,400/month = ₹2,01,600) plus one Indian retainer at ₹15,000/month. That's already above the estimate with just two clients.
+
+**Year 3 at ₹2,20,000/month** — two MCP server projects per quarter at $3,000 each = $2,000/month from MCP alone (~₹1,68,000). Regular automation work at $60/hr for 10 hours/week adds ₹2,01,600/month. Year 3 is actually conservative in the realistic scenario.
+
+### The two things that break it
+
+<div class="warn">
+
+**Risk 1 — Staying part-time indefinitely.** Part-time freelancing while employed caps you at ₹5,00,000–₹6,00,000/year. Useful income, but not the trajectory. The plan only works if you commit to full-time by Year 2.
+
+**Risk 2 — Staying in the Indian market only.** Indian clients pay ₹30,000–₹60,000 for automation projects that Upwork international clients pay ₹1,00,000–₹2,00,000 for. Same work. The 5-year revenue difference between Indian-only and international clients is ₹50,00,000+.
+
+</div>
+
+### The number to watch — end of Year 2
+
+If by end of Year 2 you are earning ₹1,20,000+/month consistently, you are on the Realistic or better trajectory. If you are below ₹60,000/month, the strategy needs adjustment — more international outreach, or a pivot toward MCP positioning where Indian rate floors don't apply.
+
+The ₹1.34 crore is not a guarantee. It is what consistent execution on international client acquisition and 2–3 closed MCP server projects in Years 2–3 produces.
 
 ---
 
