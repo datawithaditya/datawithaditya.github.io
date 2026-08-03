@@ -38,7 +38,9 @@ The plan below fixes the second list. It takes 12 months done seriously, or 18-2
 #### Tier A — Highest compensation, hardest entry
 **Enterprise automation consulting** — replacing manual Excel/email processes with Python, scheduled tasks, and internal tools. This is exactly what you built at D&H. Companies pay ₹8,000–₹25,000/day for this work. Entry requires either referrals or a proven track record on platforms.
 
-**AI/LLM tooling** — building MCP servers, RAG pipelines, LLM-integrated workflows for companies trying to adopt Claude or GPT internally. The Balance Sheet MCP server is directly relevant here. Market is young, undercrowded, and pricing hasn't compressed yet. Rates: $80–$150/hr on Western platforms.
+**MCP server development** — connecting business data (finance, ERP, CRM, internal databases) to Claude, GPT, or other LLMs so the AI can actually query and reason over real company data. You have a production example: a 7-tool FastMCP server over a 175-function pandas finance library, with dual stdio/HTTP deployment and hand-built OAuth 2.0 PKCE. This is a new, undercrowded category. Most companies know they want "AI that understands our data" but have no idea how to build it. That is the exact gap you fill. Rates: $80–$200/hr or $1,500–$8,000 per project on Western platforms.
+
+**AI/LLM tooling (broader)** — RAG pipelines, LLM-integrated workflows, Claude/GPT integrations for companies trying to adopt AI internally. MCP is the highest-value subset of this. Market is young and pricing hasn't compressed yet. Rates: $60–$150/hr.
 
 #### Tier B — Reliable, good margin
 **Data pipeline and reporting automation** — Python + pandas + Excel/Power BI output for SMBs that don't have a data team. Your openpyxl, SSRS, and BigMint tracker experience maps here exactly. Rates: $40–$80/hr.
@@ -54,7 +56,7 @@ The plan below fixes the second list. It takes 12 months done seriously, or 18-2
 
 Don't position as "Python developer." That describes ten million people.
 
-**Primary positioning:** *Enterprise workflow automation — turning manual processes into scheduled, auditable Python systems.*
+**Primary positioning A:** *Enterprise workflow automation — turning manual processes into scheduled, auditable Python systems.*
 
 This framing:
 - Speaks to the buyer's pain (manual work, errors, time wasted)
@@ -62,9 +64,11 @@ This framing:
 - Matches your real experience precisely
 - Commands higher rates than "I write Python scripts"
 
-**Secondary positioning (for AI-era clients):** *Internal AI tooling — MCP servers, LLM-integrated pipelines, and Claude/GPT integrations for business workflows.*
+**Primary positioning B:** *MCP server development — connecting your business data to AI so Claude or GPT can query, analyse, and answer questions over your real numbers.*
 
-This is your forward edge. Almost nobody has shipped a real MCP server. You have one in production.
+This is the higher-margin bet. The pitch writes itself: "You're already paying for Claude or GPT. Right now it can't see your finance data, your ERP, your internal reports. I build the bridge." Your Balance Sheet MCP server is a working reference implementation — Event → Ceremony → Photo for finance data, exposed as 7 tools the AI calls directly. Almost nobody offering this service has shipped a real one. You have.
+
+The two positionings are complementary, not competing. Use A when talking to operations and procurement buyers. Use B when talking to CTOs, finance leads, or anyone already using AI tools who is frustrated that the AI doesn't know their data.
 
 **What NOT to say:** "I do web development," "I know machine learning," "I can build anything." Generalist positioning competes on price. Specialist positioning competes on fit.
 
@@ -114,6 +118,7 @@ For each major project, write a 1-page PDF: Problem → What I built → Result 
 
 Priority order:
 - Orchestration Portal (most impressive for enterprise buyers)
+- Balance Sheet MCP server (unique — leads any MCP/AI tooling pitch; describe the problem: "finance team asks Claude a question, Claude calls your real data")
 - Rate Approval bot (directly relatable for anyone with approval workflows)
 - RasmNama (shows solo SaaS credibility)
 - BigMint tracker (procurement automation — immediately useful)
@@ -138,7 +143,9 @@ Find a popular Python library (FastMCP, APScheduler, Playwright) and fix a bug o
 | Desktop tool with Tkinter + PyInstaller | ₹20,000–₹40,000 flat |
 | Web scraper + data pipeline | ₹15,000–₹35,000 flat |
 | Flask/FastAPI backend (small) | ₹25,000–₹60,000 flat |
-| MCP server integration | $500–$2,000 flat |
+| **MCP server — basic** (connect one data source, 3–5 tools, stdio deployment) | **$800–$2,000 flat** |
+| **MCP server — full** (multi-module data library + tools + OAuth + HTTP deployment) | **$3,000–$8,000 flat** |
+| **MCP server retainer** (maintenance, new tools, schema updates) | **$300–$600/month** |
 | Hourly (Upwork) | $25/hr → $75/hr (12-month target) |
 | Monthly retainer (maintenance/support) | ₹15,000–₹40,000/month |
 
