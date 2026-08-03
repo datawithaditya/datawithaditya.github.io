@@ -93,7 +93,7 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
       font-size: 1.45rem;
       font-weight: 700;
       margin-top: 3.5rem;
-      margin-bottom: 0.8rem;
+      margin-bottom: 1.1rem;
       padding-top: 1.75rem;
       border-top: 2px solid var(--ink);
       color: var(--ink);
@@ -105,7 +105,7 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
       font-size: 1.1rem;
       font-weight: 600;
       margin-top: 2rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.85rem;
       color: var(--ink);
       letter-spacing: -0.01em;
     }
@@ -117,7 +117,7 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
       text-transform: uppercase;
       color: var(--red);
       margin-top: 1.5rem;
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.65rem;
     }
 
     /* ── Body copy ── */
@@ -150,7 +150,7 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
       border: 1px solid var(--bdr);
       border-left: 4px solid var(--ink3);
       padding: 1.1rem 1.3rem;
-      margin: 1.25rem 0;
+      margin: 2rem 0;
       overflow-x: auto;
       border-radius: 0 3px 3px 0;
     }
@@ -213,15 +213,16 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 1.5rem 0;
+      margin: 2rem 0;
       font-size: 0.88rem;
-      border: 1px solid var(--bdr);
+      border: 2px solid var(--ink);
     }
     thead { background: var(--stone); }
     th {
       text-align: left;
-      padding: 0.6rem 0.85rem;
+      padding: 0.6rem 0.9rem;
       border-bottom: 2px solid var(--ink);
+      border-right: 1px solid var(--bdr);
       font-weight: 600;
       color: var(--ink);
       font-family: 'IBM Plex Mono', monospace;
@@ -229,13 +230,17 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
       letter-spacing: 0.07em;
       text-transform: uppercase;
     }
+    th:last-child { border-right: none; }
     td {
-      padding: 0.55rem 0.85rem;
+      padding: 0.6rem 0.9rem;
       border-bottom: 1px solid var(--bdr);
+      border-right: 1px solid var(--bdr);
       color: var(--ink2);
       vertical-align: top;
     }
+    td:last-child { border-right: none; }
     tbody tr:nth-child(even) { background: var(--paper); }
+    tbody tr:last-child td { border-bottom: none; }
     td strong { color: var(--ink); }
 
     /* ── Table of contents ── */
