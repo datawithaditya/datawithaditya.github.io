@@ -145,22 +145,26 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
     }
 
     /* ── Code / template blocks ── */
-    pre {
-      background: var(--paper);
-      border: 1px solid var(--bdr);
-      border-left: 4px solid var(--ink3);
-      padding: 1.1rem 1.3rem;
-      margin: 2rem 0;
+    pre, pre.astro-code {
+      background: var(--stone) !important;
+      border: 1px solid var(--bdr) !important;
+      border-left: 4px solid var(--ink3) !important;
+      padding: 1.1rem 1.3rem !important;
+      margin: 2rem 0 !important;
       overflow-x: auto;
-      border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0 !important;
+      box-shadow: none !important;
     }
-    pre code {
-      background: none;
-      color: var(--ink2);
-      padding: 0;
+    pre code, pre.astro-code code {
+      background: none !important;
+      color: var(--ink2) !important;
+      padding: 0 !important;
       font-size: 0.81rem;
       line-height: 1.75;
-      border-radius: 0;
+      border-radius: 0 !important;
+    }
+    pre code span, pre.astro-code code span {
+      color: var(--ink2) !important;
     }
 
     /* ── Blockquote (key insight / highlight) ── */
