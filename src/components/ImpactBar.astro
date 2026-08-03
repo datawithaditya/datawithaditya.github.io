@@ -1,0 +1,11 @@
+---
+import { impact } from '../data/impact';
+---
+<div class="impact-bar">
+  {impact.map(m => (
+    <div class="imp-cell">
+      <div class="imp-n">{m.value}{m.suffix && <em>{m.suffix}</em>}</div>
+      <div class="imp-l">{m.label}</div>
+    </div>
+  ))}
+</div>

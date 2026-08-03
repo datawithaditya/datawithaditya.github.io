@@ -1,0 +1,35 @@
+---
+import type { Company } from '../data/companies';
+
+interface Props {
+  slug: string;                        // route: /projects/<slug>
+  title: string;
+  badge: string;
+  description: string;
+  tech: string[];
+  period: string;
+  colour: Company['colour'];           // parent decides the theme; card only renders
+}
+
+const { slug, title, badge, description, tech, period } = Astro.props;
+---
+<div class="tl-item">
+  <div class="tl-proj-dw">
+    <div class="tl-proj-dot"></div>
+    <span class="tl-proj-tick"></span>
+  </div>
+  <a class="pcard" href={`/projects/${slug}`}>
+    <div class="pc-hd">
+      <div class="pc-title">{title}</div>
+      <div class="pc-badge">{badge}</div>
+    </div>
+    <p class="pc-desc">{description}</p>
+    <div class="pc-stack">
+      {tech.map(t => <span class="tag">{t}</span>)}
+    </div>
+    <div class="pc-foot">
+      <span class="pc-cta">Read how I built this →</span>
+      <span class="pc-period">{period}</span>
+    </div>
+  </a>
+</div>

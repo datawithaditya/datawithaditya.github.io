@@ -1,0 +1,29 @@
+---
+import { site } from '../data/site';
+const h = site.hero;
+---
+<div class="hero">
+  <div>
+    <div class="hero-eyebrow">{h.eyebrow}</div>
+    <h1 class="hero-name">{h.firstName}<br /><em>{h.lastName}</em></h1>
+    <div class="hero-role" style="white-space:pre-line">{h.role}</div>
+    <p class="hero-bio">{h.bio}</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-dark">View Projects ↓</a>
+      <a href={`mailto:${site.footer.email}`} class="btn btn-ghost">Contact Me</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="photo-frame">
+      <img src={h.photo} alt={`${h.firstName} ${h.lastName}`} loading="eager" />
+    </div>
+    <div class="stats-panel">
+      {h.stats.map(s => (
+        <div class="stat-cell">
+          <div class="stat-v">{s.value}{s.suffix && <em>{s.suffix}</em>}</div>
+          <div class="stat-k">{s.label}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>

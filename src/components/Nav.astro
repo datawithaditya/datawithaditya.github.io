@@ -1,0 +1,28 @@
+---
+// Sticky top nav. On article pages, `href="/#skills"` still works — jumps back to homepage anchor.
+interface Props {
+  pillLabel?: string;
+  // On article pages we show "← All Projects" instead of section links.
+  variant?: 'home' | 'article';
+}
+
+const { pillLabel = 'Open to Work', variant = 'home' } = Astro.props;
+---
+<nav>
+  <a class="logo" href="/">Aditya <em>Pandey</em></a>
+  <div class="nav-r">
+    {variant === 'home' ? (
+      <ul class="nav-links">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    ) : (
+      <ul class="nav-links">
+        <li><a href="/">← All Projects</a></li>
+      </ul>
+    )}
+    <span class="nav-pill">{pillLabel}</span>
+  </div>
+</nav>

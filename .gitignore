@@ -1,0 +1,24 @@
+# build output
+dist/
+.astro/
+
+# node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment
+.env
+.env.production
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# legacy reference (kept locally, not committed)
+_index.html.legacy
+_index.stripped.html

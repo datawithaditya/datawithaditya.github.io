@@ -1,0 +1,44 @@
+---
+import '../styles/article.css';
+import type { CollectionEntry } from 'astro:content';
+import { companies } from '../data/companies';
+import { site } from '../data/site';
+import Base from './Base.astro';
+import Nav from '../components/Nav.astro';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const company = companies.find(c => c.id === project.data.company)!;
+const colour = company.colour;
+const companyLabel = project.data.articleCompanyLabel ?? company.name;
+const year = project.data.articleYear ?? project.data.period;
+const badgeLabel = project.data.articleBadgeLabel ?? `${project.data.badge}`;
+const title = `${project.data.title} — ${site.name}`;
+---
+<Base title={title} description={project.data.lede}>
+  <div class={`view a-${colour}`}>
+    <Nav variant="article" />
+    <div class="art-top">
+      <div class="art-meta">
+        <span class={`art-badge ab-${colour}`}>{badgeLabel}</span>
+        <span class="art-co" set:html={companyLabel} />
+        <span class="art-yr">{year}</span>
+      </div>
+      <h1 class="art-title" set:html={project.data.title} />
+      <p class="art-lede" set:html={project.data.lede} />
+      {project.data.externalUrl && (
+        <p style="margin-top:1rem">
+          <a class="pc-cta" href={project.data.externalUrl} target="_blank" rel="noopener">
+            {project.data.externalLabel ?? 'Visit live site →'}
+          </a>
+        </p>
+      )}
+    </div>
+    <div class="art-body">
+      <slot />
+    </div>
+  </div>
+</Base>

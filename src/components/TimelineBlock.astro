@@ -1,0 +1,42 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { Company } from '../data/companies';
+import ProjectCard from './ProjectCard.astro';
+
+interface Props {
+  company: Company;
+  projects: CollectionEntry<'projects'>[];
+}
+
+const { company, projects } = Astro.props;
+// Sort by sortKey descending so most recent card sits at the top of the block.
+const sorted = [...projects].sort((a, b) => b.data.sortKey - a.data.sortKey);
+---
+<div class={`tl-block c-${company.colour}`}>
+  <div class="tl-co-row">
+    <div class="tl-date">{company.dateRange}</div>
+    <div class="tl-co-right">
+      <div class="tl-co-header">
+        <div class="tl-co-dot"></div>
+        <div class="tl-co-tick"></div>
+        <div class="tl-co-info">
+          <div class="tl-co-name" set:html={company.name} />
+          <div class="tl-co-role">{company.role}</div>
+        </div>
+      </div>
+      <div class="tl-items">
+        {sorted.map(p => (
+          <ProjectCard
+            slug={p.id}
+            title={p.data.title}
+            badge={p.data.badge}
+            description={p.data.description}
+            tech={p.data.tech}
+            period={p.data.period}
+            colour={company.colour}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</div>

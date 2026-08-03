@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import { companies } from '../data/companies';
+import TimelineBlock from './TimelineBlock.astro';
+
+const all = await getCollection('projects', (p) => import.meta.env.PROD ? !p.data.draft : true);
+---
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="sec-n">02</div>
+      <h2 class="sec-t">Project Timeline</h2>
+    </div>
+    <div class="timeline">
+      {companies.map(company => {
+        const projects = all.filter(p => p.data.company === company.id);
+        if (projects.length === 0) return null;
+        return <TimelineBlock company={company} projects={projects} />;
+      })}
+    </div>
+  </div>
+</section>

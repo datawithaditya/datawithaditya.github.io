@@ -1,0 +1,12 @@
+---
+import { site } from '../data/site';
+const f = site.footer;
+---
+<footer>
+  <div class="ft-brand">Aditya <em>Pandey</em></div>
+  <div class="ft-meta">
+    <a href={`mailto:${f.email}`}>{f.email}</a><br />
+    {f.phone} · {f.location}<br />
+    {f.tagline}
+  </div>
+</footer>

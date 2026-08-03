@@ -1,0 +1,43 @@
+---
+import { site } from '../data/site';
+const { paragraphs, contacts } = site.about;
+---
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="sec-n">03</div>
+      <h2 class="sec-t">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        {paragraphs.map(p => <p set:html={p} />)}
+      </div>
+      <div>
+        <div class="contact-box">
+          {contacts.map(c => (
+            c.href
+              ? (
+                <a href={c.href} target={c.href.startsWith('http') ? '_blank' : undefined} rel={c.href.startsWith('http') ? 'noopener' : undefined} class="ci">
+                  <div class="ci-icon">{c.icon}</div>
+                  <div class="ci-body">
+                    <div class="ci-label">{c.label}</div>
+                    <div class="ci-val">{c.value}</div>
+                  </div>
+                  <div class="ci-arr">→</div>
+                </a>
+              )
+              : (
+                <div class="ci">
+                  <div class="ci-icon">{c.icon}</div>
+                  <div class="ci-body">
+                    <div class="ci-label">{c.label}</div>
+                    <div class="ci-val">{c.value}</div>
+                  </div>
+                </div>
+              )
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
