@@ -28,7 +28,7 @@ const canonical = new URL(Astro.url.pathname, site.url).toString();
     href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
     rel="stylesheet"
   />
-  <style>
+  <style is:global>
     /* ── Base ── */
     body {
       background: var(--bg);
