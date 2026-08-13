@@ -40,10 +40,11 @@ description: "Personal career document — freelancing strategy, service positio
 
 | Skill | Evidence | Market value |
 |---|---|---|
-| Python automation (Flask, APScheduler, Playwright) | Orchestration Portal, Rate Approval bot | High |
+| Python automation (Flask, APScheduler, Playwright) | Orchestration Portal, Rate Approval bot, Tally Automation | High |
 | MCP server development (FastMCP, OAuth 2.0 PKCE) | Balance Sheet MCP server | Very high — undercrowded |
 | Desktop packaging (Tkinter, pywebview, PyInstaller) | BigMint price tracker | Medium — few competitors |
-| Data pipelines (pandas, openpyxl, SSRS) | Balance sheet library, BigMint Excel | High |
+| Data pipelines (pandas, openpyxl, SSRS) | Balance sheet library, BigMint Excel, Tally Automation | High |
+| Accounting/ERP integration (Tally XML, MProfit, FIFO cost-basis) | Tally Automation | High — niche, high-value |
 | Web scraping (requests, BeautifulSoup, pywebview) | BigMint tracker | Medium-high |
 | Full SaaS (FastAPI, PostgreSQL, Azure, Razorpay) | RasmNama | High |
 | Enterprise auth (MSAL, Graph API, OAuth 2.0 PKCE) | Orchestration Portal, Balance Sheet MCP | High — rare at this level |
@@ -77,7 +78,7 @@ The plan below fixes all four. It takes 12 months done seriously.
 
 **What they say:** *"Someone does this manually every day and we need it automated"* / *"We keep missing things because the process relies on one person"* / *"Can you make this run automatically?"*
 
-**Your evidence:** Orchestration Portal (21 scripts, APScheduler, SSE live logs, MSAL SSO, WhatsApp chatbot) · Rate Approval bot (Playwright + Flask, JSON rules DSL, PythonAnywhere) · BigMint tracker (daily price pull, Excel history, .exe delivery)
+**Your evidence:** Orchestration Portal (21 scripts, APScheduler, SSE live logs, MSAL SSO, WhatsApp chatbot) · Rate Approval bot (Playwright + Flask, JSON rules DSL, PythonAnywhere) · BigMint tracker (daily price pull, Excel history, .exe delivery) · Tally Automation (MProfit Excel → Tally XML, ~200 tx/month, FIFO cost-basis engine)
 
 **What you deliver:** Scheduled Python system, audit log, deployment on their server or PythonAnywhere, documentation and a 5-minute Loom walkthrough
 
@@ -125,7 +126,7 @@ The plan below fixes all four. It takes 12 months done seriously.
 
 **What they say:** *"Every Monday someone spends three hours building this report"* / *"We pull from three systems and manually combine in Excel"* / *"We need this to just run itself."*
 
-**Your evidence:** Balance sheet pandas library (175 functions, 10 modules, period comparison, ratio analysis) · BigMint Excel history pipeline · SSRS report experience at D&H
+**Your evidence:** Balance sheet pandas library (175 functions, 10 modules, period comparison, ratio analysis) · BigMint Excel history pipeline · SSRS report experience at D&H · Tally Automation (broker statement → Tally, stateless FIFO cost-basis, LTCG/STCG split, ~200 tx/month at D&H trading arm)
 
 **What you deliver:** Scheduled Python pipeline, clean structured output (xlsx or CSV), deployment, source code
 
