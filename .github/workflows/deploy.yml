@@ -53,3 +53,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Keeps job-hunt-portal's master_profile (used by the tailor_job MCP tool
+      # for CV drafting) and its job/gig ranking-keyword lists in sync with this
+      # portfolio automatically. If this step fails, the Pages deploy above has
+      # already succeeded regardless — this only means the portal is stale
+      # until someone re-runs scripts/sync_master_profile.py by hand.
+      - name: Sync job-hunt-portal (master_profile + ranking keywords)
+        run: |
+          curl -sf -X POST "https://20-207-202-52.sslip.io/webhook/sync-portfolio" \
+            -H "Authorization: Bearer ${{ secrets.PORTFOLIO_SYNC_SECRET }}" \
+            --max-time 60
