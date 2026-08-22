@@ -17,13 +17,5 @@ const h = site.hero;
     <div class="photo-frame">
       <img src={h.photo} alt={`${h.firstName} ${h.lastName}`} loading="eager" />
     </div>
-    <div class="stats-panel">
-      {h.stats.map(s => (
-        <div class="stat-cell">
-          <div class="stat-v">{s.value}{s.suffix && <em>{s.suffix}</em>}</div>
-          <div class="stat-k">{s.label}</div>
-        </div>
-      ))}
-    </div>
   </div>
 </div>

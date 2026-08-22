@@ -13,12 +13,6 @@ export const site = {
     role: 'Platform Builder · Decision Automation\nBusiness Systems · Internal Tools',
     bio: 'I build internal platforms and decision-support systems that turn messy operational realities into scalable tools — across manufacturing, pharma, and commercial operations.',
     photo: '/profile.jpg',
-    stats: [
-      { value: '2', suffix: '+', label: 'Years exp.' },
-      { value: '11', label: 'Projects' },
-      { value: '70', suffix: '%', label: 'Auto-approved' },
-      { value: '100', suffix: '+', label: 'Employees' },
-    ],
   },
   about: {
     // Paragraphs — HTML allowed for <strong> / <em>.
